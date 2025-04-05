@@ -49,3 +49,15 @@ button{
 button:hover{
     background-color: rgb(153, 73, 228);
 }
+.content {
+    margin-top: 15px;
+
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+table th {
+    background-color: #646464;
+}
