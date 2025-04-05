@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projeto</title>
 
     <link rel="stylesheet" href="css/css.css">
 
@@ -11,9 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Underdog&display=swap" rel="stylesheet">
   
-      
+      <script src="js/script1.js"></script>
 
-    <script src="js/script1.js"></script>
 </head>
 <body>
 
@@ -28,6 +27,16 @@
 </div>
 
 <div class="card">
+    <div class="lineInput">
+        <label> Produto</label>
+        <input type="text" id="produto" placeholder="Nome do Produto">
+    </div>
+
+    <div class="lineInput">
+        <label>Valor</label>
+        <input type="text" id="valor" placeholder="Valor do Produto">
+    </div>
+
     <button onclick="produto.adicionar()">Adicionar</button>
     <button onclick="produto.excluir()">Excluir</button>
 </div>
